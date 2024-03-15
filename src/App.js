@@ -7,7 +7,7 @@ import About from "./pages/about/About";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/WebModify_reactJS_demo/">
       <TopBar />
       <Routes>
         <Route path="/" element={<Blog />} /> {/* Blog là trang chủ */}
