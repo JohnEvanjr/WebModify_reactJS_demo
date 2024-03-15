@@ -1,0 +1,164 @@
+.heathIntro p{
+    font-size: 28px;
+    padding: 24px;
+    background-color: #01877e;
+    align-self:center;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body span{
+    font-weight: bold;
+}
+.element {
+    display: flex;
+    flex: 3;
+    font-weight: bolder;
+    position: sticky;
+    top: 50px;
+}
+.list1{
+    font-size: 24px;
+    width: 35%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffb0a9;
+    transition: transform 0.3s;
+}
+.list1:hover{
+    transform: scale(1.2);
+}
+.list2{
+    font-size: 24px;
+    width: 35%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9d678;
+    transition: transform 0.3s;
+}
+.list2:hover{
+    transform: scale(1.2);
+}
+.list3{
+    font-size: 24px;
+    width: 35%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #b6ddda;
+    transition: transform 0.3s;
+}
+.list3:hover{
+    transform: scale(1.2);
+}
+.carbo{
+    padding: 14px;
+    font-size: 22px;
+}
+.food{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #ffb0a9;
+    border-radius: 10px;
+    line-height: 300%;
+}
+.food >table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 20px;
+
+}
+.food >table >th,td{
+    padding: 10px;
+    border: 1px #666 solid;
+    text-align: justify;
+    padding: 15px;
+}
+.source{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.source img{
+    width: 21%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.life{
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f9d678;
+    border-radius: 10px;
+    line-height: 300%;
+}
+.life table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 20px
+}
+.life table >tr{
+    column-span: 3;
+    text-align: center;
+}
+
+.dietMeal{
+    display: flex;
+}
+.dietMeal >img{
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+}
+.dietMeal >p{
+    padding: 15px;
+    text-align: justify;
+    border: 1px solid #666;
+    width: 15%;
+}
+.living{
+    display: flex;
+}
+.living >img{
+    float: left;
+    width: 40%;
+    border-radius: 15px;
+}
+.living >p{
+    padding: 20px;
+    width: 15%;
+    text-align: justify;
+    border: 1px solid #666;
+}
+.workout{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #b6ddda;
+    border-radius: 10px;
+    line-height: 300%;
+}
+
+.workout img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.exer{
+    display: flex;
+}
+.detail{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
