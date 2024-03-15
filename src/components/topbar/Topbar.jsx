@@ -1,48 +1,36 @@
 import { Link } from "react-router-dom";
 import "./topbar.css";
 
+
 export default function TopBar() {
-  const user = false;
+  const user = false; // Đây là ví dụ, bạn có thể thay đổi giá trị tùy thuộc vào trạng thái đăng nhập của người dùng
+
   return (
     <div className="top">
       <div className="topLeft">
-        
+        <i className="topIcon fab fa-facebook"></i>
+        <i className="topIcon fab fa-twitter"></i>
+        <i className="topIcon fab fa-instagram"></i>
       </div>
       <div className="topCenter">
-        <ul className="topList">
-          <li className="topListItem">
-            <Link className="link" to="/">
-              HOME
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/">
-              ABOUT
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/">
-              HEATH
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/write">
-              WORKOUT
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/write">
-              SHOP
-            </Link>
-          </li>
-          <li className="topListItem">
-            <Link className="link" to="/write">
-              BLOG
-            </Link>
-          </li>
-          <li className="topListItem">{user && "LOGOUT"}</li>
-        </ul>
-      </div>
+  <ul className="topList">
+    <li className="topListItem">
+      <Link className="link" to="/about">
+        ABOUT
+      </Link>
+    </li>
+    <li className="topListItem">
+      <Link className="link" to="/heath">
+        HEATH
+      </Link>
+    </li>
+    <li className="topListItem">
+      <Link className="link" to="/">
+        BLOG
+      </Link>
+    </li>
+  </ul>
+</div>
       <div className="topRight">
         {user ? (
           <img

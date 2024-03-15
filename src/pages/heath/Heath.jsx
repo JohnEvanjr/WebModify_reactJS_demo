@@ -2,10 +2,10 @@ import "./heath.css";
 import Header from "../../components/header/Header";
 import { Route } from "react-router-dom";
 import React from "react";
+
 export default function Heath() {
   return (
     <>
-      <Header />
       <div className="heathIntro">
         <p>Tổng quan về các yếu tố tạo nên một sức khỏe tốt</p>
       </div>
@@ -305,11 +305,9 @@ export default function Heath() {
 
           <p>
             <strong>Vitamins và Minerals (Vitamin và Khoáng chất):</strong> Đóng
-            vai trò quan trọng trong nhiều quá trình cơ bản của cơ thể như trao
-            đổi chất, chức năng miễn dịch, và sự phát triển. Không có tỉ lệ phần
+            vai trò quan trọng trong nhiều quá trình cơ bản của cơ thể. Không có tỉ lệ phần
             trăm cụ thể nhưng cần đảm bảo cung cấp đủ các loại vitamin và khoáng
-            chất thông qua việc tiêu thụ rau củ, hoa quả, và thực phẩm giàu chất
-            dinh dưỡng khác.
+            chất.
           </p>
         </div>
         <h3>Tác hại của việc tiêu thụ quá nhiều chất dinh dưỡng</h3>

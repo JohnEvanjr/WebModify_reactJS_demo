@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    background-color: #b6ddda;
+    color: #666;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 50px 5%;
+}
+
+.about-content {
+    width: 50%;
+    padding-right: 10px; 
+    float: left; 
+    text-align: justify;
+}
+
+.about-image {  
+    width: 50%; 
+    float: right; 
+     
+}
+
+.about-image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.team-table {
+    width: 100%;
+}
+
+.team-member {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.team-member-info,
+.team-member-image {
+    padding: 20px;
+}
+
+.team-member-image img,
+.about-image img,
+.founder-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #13313D;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.team-member-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.team-member-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #13313D;
+
+}
+
+
+footer {
+    background: #f9d678;
+    color: #13313D;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+}
