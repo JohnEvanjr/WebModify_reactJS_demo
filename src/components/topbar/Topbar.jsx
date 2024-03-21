@@ -14,6 +14,11 @@ export default function TopBar() {
       </div>
       <div className="topCenter">
   <ul className="topList">
+  <li className="topListItem">
+      <Link className="link" to="/">
+        HOME
+      </Link>
+    </li>
     <li className="topListItem">
       <Link className="link" to="/about">
         ABOUT
@@ -21,12 +26,22 @@ export default function TopBar() {
     </li>
     <li className="topListItem">
       <Link className="link" to="/heath">
-        HEATH
+        HEALTH
       </Link>
     </li>
     <li className="topListItem">
-      <Link className="link" to="/">
+      <Link className="link" to="/workout">
+        WORKOUT
+      </Link>
+    </li>
+    <li className="topListItem">
+      <Link className="link" to="/blog">
         BLOG
+      </Link>
+    </li>
+    <li className="topListItem">
+      <Link className="link" to="/shop">
+        SHOP
       </Link>
     </li>
   </ul>

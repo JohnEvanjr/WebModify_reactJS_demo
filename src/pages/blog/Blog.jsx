@@ -244,11 +244,6 @@ export default function Blog() {
           <figcaption>Bài viết hữu ích</figcaption>
         </figure>
       </div>
-      
-
-      <footer>
-        <p>&copy; 2024 Fitness Blog. All rights reserved.</p>
-      </footer>
     </>
   );
 }

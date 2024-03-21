@@ -92,11 +92,6 @@ export default function About() {
           </table>
         </div>
       </section>
-      <footer>
-    <div class="container">
-        <p>&copy; 2024 FitStars. All rights reserved.</p>
-    </div>
-</footer>
     </>
   );
 }

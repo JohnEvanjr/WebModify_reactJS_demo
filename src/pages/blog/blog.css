@@ -1,10 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #b6ddda; /* MÃ u ná»n */
-    color: #666; 
-}
 
 header {
     background-color: #13313D; 
@@ -152,12 +145,11 @@ footer {
 
 
 .widget {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 10px;
     background-color: #FFB0A9;
-    padding: 10px 5% 0;
+    padding: 20px 5% 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
