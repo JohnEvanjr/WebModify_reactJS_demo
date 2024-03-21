@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/WebModify_reactJS_demo/static/css/main.a1af6823.css",
-    "main.js": "/WebModify_reactJS_demo/static/js/main.300d40d9.js",
-    "static/media/intro@3x.png": "/WebModify_reactJS_demo/static/media/intro@3x.646a07426e1e162fc58a.png",
+    "main.css": "/WebModify_reactJS_demo/static/css/main.ec1d6e4e.css",
+    "main.js": "/WebModify_reactJS_demo/static/js/main.249b32b1.js",
+    "static/media/intro.png": "/WebModify_reactJS_demo/static/media/intro.646a07426e1e162fc58a.png",
     "index.html": "/WebModify_reactJS_demo/index.html",
-    "main.a1af6823.css.map": "/WebModify_reactJS_demo/static/css/main.a1af6823.css.map",
-    "main.300d40d9.js.map": "/WebModify_reactJS_demo/static/js/main.300d40d9.js.map"
+    "main.ec1d6e4e.css.map": "/WebModify_reactJS_demo/static/css/main.ec1d6e4e.css.map",
+    "main.249b32b1.js.map": "/WebModify_reactJS_demo/static/js/main.249b32b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1af6823.css",
-    "static/js/main.300d40d9.js"
+    "static/css/main.ec1d6e4e.css",
+    "static/js/main.249b32b1.js"
   ]
 }
